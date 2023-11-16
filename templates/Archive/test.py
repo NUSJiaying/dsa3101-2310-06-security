@@ -1,7 +1,7 @@
 # Import required libraries
 import dash
 import pandas as pd
-from dash import html, dcc, callback, Output, Input
+from dash import html, dcc, Output, Input
 from dash.exceptions import PreventUpdate
 
 # Assume 'app' is your Dash web application

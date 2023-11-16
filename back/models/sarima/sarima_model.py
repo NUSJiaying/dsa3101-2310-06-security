@@ -1,11 +1,8 @@
 import pandas as pd
-import matplotlib.pyplot as plt
-import csv
 from sklearn.metrics import mean_absolute_error
 from datetime import datetime, timedelta
 import plotly.graph_objects as go
 import pickle
-from statsmodels.tsa.statespace.sarimax import SARIMAX
 from pmdarima import auto_arima
 from connect_sql import establish_sql_connection
 from back.models.sarima.feature_eng import engineer_features

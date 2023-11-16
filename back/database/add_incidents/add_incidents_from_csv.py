@@ -1,6 +1,5 @@
 import mysql.connector
 import pandas as pd
-import bcrypt
 import time
 
 

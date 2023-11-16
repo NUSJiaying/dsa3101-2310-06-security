@@ -2,7 +2,6 @@ import mysql.connector
 from connect_sql import establish_sql_connection
 import pandas as pd
 import bcrypt
-import time
 
 # user_roles
 def add_user_roles(filepath):

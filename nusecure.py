@@ -1,8 +1,8 @@
 from functools import wraps
-from flask import Flask, request, send_file, render_template, jsonify, redirect, url_for, Blueprint
+from flask import Flask, request, send_file, render_template, jsonify, redirect, url_for
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
 from back.models.sarima.sarima_model import forecast_all_sarima, train_all_sarima
-from back.database.users.users import authenticate, add_user
+from back.database.users.users import authenticate
 from back.models.apriori import get_rank
 from back.analytics.nuseda import plots
 from back.analytics.generate_heatmap import heatmap

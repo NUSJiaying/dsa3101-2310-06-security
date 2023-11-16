@@ -1,8 +1,6 @@
 from connect_sql import establish_sql_connection
 import mysql.connector
-import pandas as pd
 import bcrypt
-import time
 
 ## ADD user
 def add_user(username, password, role, email=None):

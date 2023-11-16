@@ -1,8 +1,6 @@
-from flask import Flask, request
 import pandas as pd
 from connect_sql import establish_sql_connection
 from mlxtend.frequent_patterns import apriori
-import matplotlib.pyplot as plt
 import warnings
 
 def get_rank(location,day,hour):

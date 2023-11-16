@@ -1,6 +1,4 @@
 import pandas as pd
-import matplotlib
-from matplotlib import pyplot as plt
 import folium
 from folium.plugins import HeatMap
 from connect_sql import establish_sql_connection
